@@ -86,6 +86,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.gralloc.enable_fb_ubwc=1 \
     persist.hwc.enable_vds=1 \
     ro.opengles.version=196610 \
+    ro.surface_flinger.protected_contents=true \
     ro.qualcomm.cabl=0 \
     ro.sf.lcd_density=440 \
     vendor.display.disable_skip_validate=1 \
