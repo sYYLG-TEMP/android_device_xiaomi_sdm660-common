@@ -326,16 +326,6 @@ vendor/lib64/vendor.qti.gnss@1.1.so|b1b435c5ccb43d83c4f3ca8e3ce433bfcc55120c
 vendor/lib64/vendor.qti.gnss@1.2.so|aca1b814d21d59d1e12a7695071291ea6d6d9e45
 vendor/lib64/vendor.qti.gnss@2.0.so|3f4bf5412f470d9f5bab2ea8298b7df39011cb3d
 
-# Graphics firmware - from jasmine
-vendor/firmware/a512_zap.b00|85a7fc0008f9a2071d8b3d0cc212b19141633267
-vendor/firmware/a512_zap.b01|e0b7818182fac232182bfb70a4f43ec3e36779b9
-vendor/firmware/a512_zap.b02|33cc074ca840ae59f310a0e217aa7409afb30ac2
-vendor/firmware/a512_zap.elf|5dd4278559e9276f641bb121d7577d1a3ca3fcbb
-vendor/firmware/a512_zap.mdt|cc149dda6e109dd3f1f92e74349665a8c521ff79
-vendor/firmware/a530_pfp.fw|d027c70fde64241ec13160d09ee1b6c272974a4b
-vendor/firmware/a530_pm4.fw|b1cf625b5552b99839687f479c124ac5daca2ca2
-vendor/firmware/a540_gpmu.fw2|3530f10b4825a3b08c79e0bcfaf6471ec8422f24
-
 # Graphics - from LA.UM.8.2.r1-04300-sdm660.0
 vendor/lib64/egl/eglSubDriverAndroid.so|cd76c111254eaf809defcd40d4a1d6aa0f140c0e
 vendor/lib64/egl/libEGL_adreno.so|35c319854e143d7bcfacea9c499897ca846f1b3a
@@ -396,14 +386,6 @@ vendor/lib64/libtinyxml2_1.so|ba981e332895a053a67fc54a8190365a3ad37f2d
 # Graphics (Vulkan) - from LA.UM.8.2.r1-04300-sdm660.0
 vendor/lib/hw/vulkan.sdm660.so|87d87b2520d3a8adec7a24f5999a27b291edaeba
 vendor/lib64/hw/vulkan.sdm660.so|ad3a5d92c6c13ba0c937dd1b83f371e804a57c4e
-
-# Keymaster - from jasmine
-vendor/lib/libkeymasterutils.so|d83fbb2aed8f1eb8faefe5f99c71f0f4dd262aa6
-vendor/lib/libkeymasterprovision.so|9e18873343a8f9961723921bad1bd94094f63e5f
-vendor/lib/libkeymasterdeviceutils.so|0765fc204e741b0ee6d863e5512b2615f9a43d1c
-vendor/lib64/libkeymasterutils.so|81e2d0e422bc5d6f0dd3f9d4f86ef086f9460205
-vendor/lib64/libkeymasterprovision.so|01c113e2ddc4e2e5a2f62544d3f393bc31f15c8e
-vendor/lib64/libkeymasterdeviceutils.so|ffbf8d30cc4d41b24c2646529992da81cd794b7e
 
 # Keystore - from jasmine
 vendor/lib/hw/keystore.sdm660.so|990bc5ca05914f3df85320a31b26fae325e174e3
@@ -672,24 +654,6 @@ vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so|d793d194ae9fe0fb63db4f
 vendor/lib64/vendor.qti.imsrtpservice@1.0.so|c003cfe2417aae4165de6829e0677509d43a6506
 vendor/lib64/vendor.qti.ims.callinfo@1.0.so|bd41dfe38f8102cde0fce1d680e3dca10fdc8643
 vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so|fa2f426e4d46aa0e16fe39918eeff9f02a889552
-
-# Sensors - from jasmine
-vendor/bin/sensors.qti|b9dd01bb948aaf66c4d87c6c96e2a28078d1f14a
-vendor/lib/hw/activity_recognition.sdm660.so|d19f489569bea666b52ec6372287eb839defba4d
-vendor/lib/libsensor_reg.so|fbde29ba3450372d68afc71eef985a0edef68053
-vendor/lib/libsensor1.so|7a704dd0e2495cfb9702edf95a23e23975437f2c
-vendor/lib/sensors.ssc.so|dd9acd5b753fef47e6d206f39c8272a1656777b3
-vendor/lib64/hw/activity_recognition.sdm660.so|d1b84a0878482a59fac9fb7a416b81f2b0ac46d3
-vendor/lib64/libsensor_reg.so|65bd2a012bb4518d3907036b737a9b2532cb6653
-vendor/lib64/libsensor1.so|847336e80f73f91a155ee7851f0d4f51f3b1031c
-vendor/lib64/sensors.ssc.so|93cd0cdf345367c5bb5185894d2b0c146f63bb09
-
-# Thermal - from LA.UM.8.2.r1-04000-sdm660.0
-vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
-vendor/bin/thermal-engine|5b0deee2f319843c32b41be26ec6648cb6fc8560
--vendor/lib/libthermalclient.so|c3aecc7610e8f5775a6f6af2ff7790bef74380a1
--vendor/lib64/libthermalclient.so|84072e150722cc668320f07a75cb8695ce1a79b0
-vendor/lib64/libthermalioctl.so|883cb0b55fc2a0354a8c7f21139767e6a413b4ac
 
 # Soter - from jason PKQ1.181007.001 V11.0.3.0.PCHCNXM
 -app/SoterService/SoterService.apk|b158b5ed87be1c7afafd62216ed200c1ba6b2d58
