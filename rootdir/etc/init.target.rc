@@ -89,8 +89,8 @@ on boot
     mkdir /data/vendor/camera 0770 camera camera
 
 # DT2W
-    chown system system /proc/wake_node
-    chmod 0660 /proc/wake_node
+    chown system system /proc/tp_gesture
+    chmod 0660 /proc/tp_gesture
 
 #USB controller configuration
     setprop vendor.usb.rndis.func.name "rndis_bam"
